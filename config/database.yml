@@ -1,0 +1,8 @@
+development:
+  adapter: postgres
+  database: dieprojektur
+  url: 'postgres:///dieprojektur'
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
+
